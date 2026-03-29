@@ -91,8 +91,8 @@ def message_musicians():
 
 
 def main_menu():
-    user_name = greet_user()
-    profile = None
+    # user_name = greet_user()
+    # profile = None
 
     while True:
         print("\n--- MAIN MENU ---")
@@ -117,4 +117,4 @@ def main_menu():
 
 
 # Run App
-main_menu()
+# main_menu()
