@@ -28,7 +28,7 @@ strings = ['E', 'A', 'D', 'G', 'B', 'E']
 # Example scale: D minor
 scale_notes = ['D', 'E', 'F', 'G', 'A', 'A#', 'C']
 
-
+# hello world
 def get_note(open_note, fret):
     index = notes.index(open_note)
     return notes[(index + fret) % 12]
